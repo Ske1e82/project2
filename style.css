@@ -1,0 +1,78 @@
+/* พื้นหลังไล่เฉดสีสดใส */
+body {
+    background: linear-gradient(to right, #fad0c4,#70cdf1,#fad0c4 );
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+}
+
+/* หัวข้อใหญ่ */
+h1 {
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    background: #1c9aee;
+    border-radius: 10px;
+}
+
+/* กล่องอีเวนต์ */
+.event {
+    background: #ffffff;
+    padding: 15px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    max-width: 800px;
+}
+
+/* ชื่ออีเวนต์ */
+.event h2 {
+    color: #f3adad;
+    border-bottom: 2px solid #ff758c;
+    padding-bottom: 5px;
+}
+
+/* ข้อมูลอีเวนต์ */
+.event p {
+    color: #333;
+    font-size: 16px;
+}
+
+/* ปุ่มลงทะเบียน */
+.register-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #40eb30;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.register-btn:hover {
+    background: #ff5e78;
+}
+
+/* รูปภาพในอีเวนต์ */
+.event img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    margin: 5px;
+    object-fit: cover;
+}
+
+button {
+    background-color: #1c9aee;
+    border-radius: 10px;
+    color: white;
+    width: 75px;
+    height: 25px;
+}
+
+a {
+    color: #ffffff;
+    text-align: center;
+    padding: 5px;
+    background: #1c9aee;
+    border-radius: 10px;
+    
+}
